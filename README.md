@@ -6,5 +6,9 @@ PERSONAL RULES:
 
 This is my personal safe haven for re-inventing the wheel.
 
-DEVELOPMENT TOOLS:
+TOOLS USED:
 - Visual Studio Code
+- HTTPS by Certbot
+- Server is NGinx
+
+NucleusJS: https://github.com/lucasassislar/nucleusjs
