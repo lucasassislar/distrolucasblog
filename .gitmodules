@@ -1,0 +1,3 @@
+[submodule "submodules/nucleusjs"]
+	path = submodules/nucleusjs
+	url = https://github.com/lucasassislar/nucleusjs
