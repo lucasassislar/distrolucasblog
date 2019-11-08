@@ -9,6 +9,6 @@ This is my personal safe haven for re-inventing the wheel.
 TOOLS USED:
 - Visual Studio Code
 - HTTPS by Certbot
-- Server is NGinx
-
-NucleusJS: https://github.com/lucasassislar/nucleusjs
+- Reverse Proxy/HTTPS handling by NGinx
+- Dynamic JS by NucleusJS: https://github.com/lucasassislar/nucleusjs
+- Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming
