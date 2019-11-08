@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/server/DistroLucasServer/.nuget/NuGet.targets
+/server/DistroLucasServer/.nuget/NuGet.exe
+/server/DistroLucasServer/.nuget/NuGet.Config

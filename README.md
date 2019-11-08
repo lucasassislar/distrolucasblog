@@ -11,4 +11,7 @@ TOOLS USED:
 - HTTPS by Certbot
 - Reverse Proxy/HTTPS handling by NGinx
 - Dynamic JS by NucleusJS: https://github.com/lucasassislar/nucleusjs
-- Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming, adapted after initial code by David Jeske
+- Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming
+    - Initial HTTP server code by David Jeske
+    - Additional attributes for Route Management and listing more akin to ASP.NET/Express
+	- Mono on Ubuntu
