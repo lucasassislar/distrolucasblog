@@ -22,4 +22,4 @@ TOOLS USED:
     - Initial HTTP server code by David Jeske
     - Additional attributes for Route Management and listing more akin to ASP.NET/Express
     - No caching currently
-	- Mono on Ubuntu
+	- .NET Core on Ubuntu
