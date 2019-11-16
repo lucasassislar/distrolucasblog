@@ -4,6 +4,13 @@ PERSONAL RULES:
 - Optimization is the highest priority
 - Maybe? Make this be backwards-compatible (IE6)
 
+TO-DO:
+- GZip support
+
+SO FAR:
+- JSON takes more space than just lines of text
+- PNG can actually be lighter than JPEGs on specific cases
+
 This is my personal safe haven for re-inventing the wheel.
 
 TOOLS USED:
@@ -14,4 +21,5 @@ TOOLS USED:
 - Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming
     - Initial HTTP server code by David Jeske
     - Additional attributes for Route Management and listing more akin to ASP.NET/Express
+    - No caching currently
 	- Mono on Ubuntu

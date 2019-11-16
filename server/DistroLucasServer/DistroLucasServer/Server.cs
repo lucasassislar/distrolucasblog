@@ -1,7 +1,5 @@
 ﻿using Nucleus.Gaming;
 using Nucleus.Gaming.Web;
-using SimpleHttpServer;
-using SimpleHttpServer.Models;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -15,12 +13,13 @@ namespace DistroLucasServer {
         }
 
         private HttpServer httpServer;
+        private string path;
 
-        public Server(ushort port) {
+        public Server(ushort port, string path) {
             RouteBuilder routeBuilder = new RouteBuilder();
             List<Route> routes = routeBuilder.BuildRoute(Assembly.GetExecutingAssembly());
 
-            httpServer = new HttpServer(port, routes);
+            httpServer = new HttpServer(port, routes, path);
         }
 
         public void Run() {
