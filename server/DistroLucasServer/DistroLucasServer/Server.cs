@@ -37,7 +37,6 @@ namespace DistroLucasServer {
                 ConsoleU.WriteLine($"Files: {files[i]}", ConsoleColor.Green);
             }
 
-
             httpServer.Listen();
         }
     }

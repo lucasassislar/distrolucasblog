@@ -1,0 +1,1 @@
+/var/www/distrolucas.com/server/DistroLucasServer.NETCore /var/www/distrolucas.com/html

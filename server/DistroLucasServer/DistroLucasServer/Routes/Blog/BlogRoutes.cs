@@ -24,7 +24,8 @@ namespace DistroLucasServer {
         public HttpResponse GetPostsByPage(HttpRequest request) {
             Console.WriteLine("Get Posts By Page");
 
-            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "Resources"));
+            string language = "en";
+            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language));
             List<FileInfo> files = postsDir.GetFiles().ToList();
             files.Sort(CompareFile);
 

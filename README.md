@@ -6,12 +6,18 @@ PERSONAL RULES:
 
 TO-DO:
 - GZip support
+- Minify support
 
 SO FAR:
 - JSON takes more space than just lines of text
 - PNG can actually be lighter than JPEGs on specific cases
 
 This is my personal safe haven for re-inventing the wheel.
+
+EXTERNAL TOOLS ALLOWED:
+- Anything I can't possibly develop in a timely manner, so:
+    - Visual Studio Code
+    - NGinx for HTTPS (one day might rewrite my server to support HTTPS, but NGINX would just plainly be more secure)
 
 TOOLS USED:
 - Visual Studio Code

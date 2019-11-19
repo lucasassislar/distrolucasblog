@@ -16,7 +16,7 @@ nukeGet("/blog/bypage", (result) => {
 
         var remaining = lines.length - 2;
         var finalLine = lines[3];
-        for (var j = 1; j < remaining; j++) {
+        for (var j = 4; j < remaining; j++) {
             finalLine = finalLine + '<br>' + lines[2 + j];
         }
         c.children[3].innerHTML = finalLine + '<br><br>';
