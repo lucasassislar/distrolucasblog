@@ -4,15 +4,17 @@ PERSONAL RULES:
 - Optimization is the highest priority
 - Maybe? Make this be backwards-compatible (IE6)
 
+This is my personal safe haven for re-inventing the wheel.
+
 TO-DO:
 - GZip support
-- Minify support
+- Minify CSS and JS support
+- Paging system (index page should have everything needed to render the entire website, then later use small requests to get content)
+- Dynamic CSS (should I just use SASS for this?)
 
-SO FAR:
+LEARNED SO FAR:
 - JSON takes more space than just lines of text
-- PNG can actually be lighter than JPEGs on specific cases
-
-This is my personal safe haven for re-inventing the wheel.
+- PNGs with compression can actually be lighter than JPEGs on low color count images
 
 EXTERNAL TOOLS ALLOWED:
 - Anything I can't possibly develop in a timely manner, so:
@@ -27,5 +29,5 @@ TOOLS USED:
 - Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming
     - Initial HTTP server code by David Jeske
     - Additional attributes for Route Management and listing more akin to ASP.NET/Express
-    - No caching currently
-	- .NET Core on Ubuntu
+    - No caching for pages currently
+	- .NET Core 3 on Ubuntu 18
