@@ -11,6 +11,7 @@ TO-DO:
 - Minify CSS and JS support
 - Dynamic CSS (should I just use SASS for this?)
 - Dynamic points to what I''ll be doing - future streams/whatever
+- Template system (HTML being re-used already)
 
 DONE:
 - Paging system (index page should have everything needed to render the entire website, then later use small requests to get content)

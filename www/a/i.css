@@ -46,10 +46,12 @@ span {
   /* Title Block */
   font-family: "Tomorrow", sans-serif;
   font-size: 38px;
-  margin: 15px;
-  position: relative;
+  /* margin: 15px; */
+  position:relative;
+  left:15px;
   top: 15px;
 }
+
 .titleUnity {
   font-family: "Tomorrow", sans-serif;
 }
