@@ -18,8 +18,8 @@ span {
 }
 
 #footer {
-  /* background-color:red; */
-  display:flex; 
+  /* background-color: red; */
+  display: flex;
   margin-left: 15px;
   width: 99%;
   text-align: center;
@@ -32,9 +32,12 @@ span {
 
 .content {
   /* Website Content */
-  display: flex;
   margin: 0px;
   padding: 0px;
+  position: absolute;
+  width: 100%;
+  height: 87.5%;
+  /* background-color: magenta; */
 }
 .tBox {
   width: 300px;
@@ -55,7 +58,7 @@ span {
   /* Side Bar */
   width: 280px;
   height: 555px;
-  position:fixed;
+  position: fixed;
 
   background-image: url("/a/g2.png");
   background-color: #242025;
@@ -76,12 +79,15 @@ span {
   left: 17.5px;
 }
 
-#sitePage{ 
+#sitePage {
   width: 60%;
-  margin-left:280px;
+  height: 100%;
+  margin-left: 280px;
+  /* background-color: red; */
 }
+
 #blog {
-  width: 100%;
+  width:100%;
 }
 
 .inner {
@@ -94,6 +100,7 @@ span {
   box-shadow: 0px 0px 15px 5px #121012;
   display: box;
   margin-bottom: 50px;
+  /* background-color:magenta; */
 }
 
 .innerBlogText {
@@ -101,26 +108,43 @@ span {
 }
 
 .blogText {
-  display:block;
+  display: block;
   margin: 0 0 5px 0;
   text-indent: 2.5%;
+}
+/* .distroContent {
+  margin: 0 2% 0 2%;
+  width:100%;
+  height:100%;
+} */
+
+.distroSubEnd {
+  height:150px;
+}
+
+.contentText {
+  position:relative;
+  margin: 15px 2% 0 2%;
+  top:25px;
+
 }
 
 .bib {
   position: relative;
-  bottom: 1ex; 
+  bottom: 1ex;
   font-size: 80%;
 }
 
 .blogH {
   height: 1px;
 }
-.blogDate {
-  width: 100%;
-  text-align: center;
-  height: 40px;
-}
 
+.blogDate {
+  text-align: center;
+  width: 100%;
+  height: 2vw;
+  bottom: 10px;
+}
 
 .gIcon {
   width: 20px;
