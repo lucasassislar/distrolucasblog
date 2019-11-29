@@ -1,73 +1,93 @@
 Quotes
-Sub-quote
+A list of my favorite quotes so far
 Last Update (November 28, 2019 - 18:00)
-"A genius is a mentally ill person with an audience" - Tim Minchin
-[breakpost]
+"A genius is a mentally ill person with an audience" 
+- Tim Minchin
+<div class="space"></div>
 
-"Nothing can outrun the darkness of entropy" - Unknown
-[breakpost]
+"Nothing can outrun the darkness of entropy" 
+- Unknown
+<div class="space"></div>
 
-"Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop." - Winston S. Churchill
-[breakpost]
+"Criticism may not be agreeable, but it is necessary. It fulfils the same function as pain in the human body; it calls attention to the development of an unhealthy state of things. If it is heeded in time, danger may be averted; if it is suppressed, a fatal distemper may develop." 
+- Winston S. Churchill
+<div class="space"></div>
 
-"Well yeah, and I'm sad, but at the same time I'm really happy that something could make me feel that sad. It's like, it makes me feel alive, you know? It makes me feel human. And the only way I could feel this sad now is if I felt somethin' really good before. So I have to take the bad with the good, so I guess what I'm feelin' is like a, beautiful sadness. I guess that sounds stupid." - Butters, South Park S07E14
-[breakpost]
+"Well yeah, and I'm sad, but at the same time I'm really happy that something could make me feel that sad. It's like, it makes me feel alive, you know? It makes me feel human. And the only way I could feel this sad now is if I felt somethin' really good before. So I have to take the bad with the good, so I guess what I'm feelin' is like a, beautiful sadness. I guess that sounds stupid." 
+- Butters, South Park S07E14
+<div class="space"></div>
 
-"Life moves pretty fast. If you don't stop and look around once in a while, you could miss it" - Ferris Bueller's Day Off
-[breakpost]
+"Life moves pretty fast. If you don't stop and look around once in a while, you could miss it" 
+- Ferris Bueller's Day Off
+<div class="space"></div>
 
-"The mystery of life isn't a problem to solve, but a reality to experience." - Frank Herbert, Dune
-[breakpost]
+"The mystery of life isn't a problem to solve, but a reality to experience." 
+- Frank Herbert, Dune
+<div class="space"></div>
 
-“You think you're in love but you just want to be loved” - À Nos Amours
-[breakpost]
+"You think you're in love but you just want to be loved" 
+- À Nos Amours
+<div class="space"></div>
 
-“The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion." - Albert Camus
-[breakpost]
+"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion." 
+- Albert Camus
+<div class="space"></div>
 
-“The purpose of a writer is to make revolution irresistible” - Toni Cade Bambara
-[breakpost]
+"The purpose of a writer is to make revolution irresistible" 
+- Toni Cade Bambara
+<div class="space"></div>
 
-“My job as an artist is making miracles
+"My job as an artist is making miracles
 To show you how to struggle poetic and make it lyrical
 Crystallize the thought to make it clear to you
-And make the revolution irresistible” - Talib Kweli, The Dreamer - Anderson Paak song
-[breakpost]
+And make the revolution irresistible" 
+- Talib Kweli, The Dreamer - Anderson Paak song
+<div class="space"></div>
 
-“Worry is a misuse of the imagination” - Dan Zadra
-[breakpost]
+"Worry is a misuse of the imagination" 
+- Dan Zadra
+<div class="space"></div>
 
-“What is better? To be born good or to overcome your evil nature through great effort?” - Paarthurnax, Skyrim
-[breakpost]
+"What is better? To be born good or to overcome your evil nature through great effort?" 
+- Paarthurnax, Skyrim
+<div class="space"></div>
 
-“You will be required to do wrong no matter where you go. It is the basic condition of life, to be required to violate your own identity. At some time, every creature which lives must do so. It is the ultimate shadow, the defeat of creation; this is the curse at work, the curse that feeds on all life.” -  Philip. K. Dick
-[breakpost]
+"You will be required to do wrong no matter where you go. It is the basic condition of life, to be required to violate your own identity. At some time, every creature which lives must do so. It is the ultimate shadow, the defeat of creation; this is the curse at work, the curse that feeds on all life." 
+-  Philip. K. Dick, Do Android Dreams of Electric Sheep?
+<div class="space"></div>
 
-“The fact that it was a mind not yet born was of no consequence, for Time is very much stranger than you think.” - Arthur C. Clarke
-[breakpost]
+"The fact that it was a mind not yet born was of no consequence, for Time is very much stranger than you think." 
+- Arthur C. Clarke, Childhood's End
+<div class="space"></div>
 
-"Never attribute to malice that which is adequately explained by stupidity" - Hanlon's Razor
-[breakpost]
+"Never attribute to malice that which is adequately explained by stupidity" 
+- Hanlon's Razor
+<div class="space"></div>
 
-"Dirk serves a purpose that is beyond his control, and he exists solely for this purpose. But in terms of answering the question, his power is to detect and resolve anomalies that threaten the functionality of a holistic universe, or more succinctly, to fix what chaos inevitably breaks" - /u/Somniferous167
-[breakpost]
+"Dirk serves a purpose that is beyond his control, and he exists solely for this purpose. But in terms of answering the question, his power is to detect and resolve anomalies that threaten the functionality of a holistic universe, or more succinctly, to fix what chaos inevitably breaks" 
+- /u/Somniferous167 on Dirk Gently's purpose
+<div class="space"></div>
 
 "It's absurd to believe that we might
 Deserve anything
 As if its balanced in the end
-And the good guys always win" - My Mind is For Sale, Jack Johnson
-[breakpost]
+And the good guys always win" 
+- My Mind is For Sale, Jack Johnson
+<div class="space"></div>
 
-“Those who cannot conceive Friendship as a substantive love but only as a disguise or elaboration of Eros betray the fact that they have never had a Friend. The rest of us know that though we can have erotic love and friendship for the same person yet in some ways nothing is less like a Friendship than a love-affair. Lovers are always talking to one another about their love; Friends hardly ever about their Friendship. Lovers are normally face to face, absorbed in each other; Friends, side by side, absorbed in some common interest. Above all, Eros (while it lasts) is necessarily between two only. But two, far from being the necessary number for Friendship, is not even the best. And the reason for this is important. ... In each of my friends there is something that only some other friend can fully bring out. By myself I am not large enough to call the whole man into activity; I want other lights than my own to show all his facets... Hence true Friendship is the least jealous of loves. Two friends delight to be joined by a third, and three by a fourth, if only the newcomer is qualified to become a real friend. They can then say, as the blessed souls say in Dante, 'Here comes one who will augment our loves.' For in this love 'to divide is not to take away.” - C.S. Lewis, The Four Loves
-[breakpost]
+"Those who cannot conceive Friendship as a substantive love but only as a disguise or elaboration of Eros betray the fact that they have never had a Friend. The rest of us know that though we can have erotic love and friendship for the same person yet in some ways nothing is less like a Friendship than a love-affair. Lovers are always talking to one another about their love; Friends hardly ever about their Friendship. Lovers are normally face to face, absorbed in each other; Friends, side by side, absorbed in some common interest. Above all, Eros (while it lasts) is necessarily between two only. But two, far from being the necessary number for Friendship, is not even the best. And the reason for this is important. ... In each of my friends there is something that only some other friend can fully bring out. By myself I am not large enough to call the whole man into activity; I want other lights than my own to show all his facets... Hence true Friendship is the least jealous of loves. Two friends delight to be joined by a third, and three by a fourth, if only the newcomer is qualified to become a real friend. They can then say, as the blessed souls say in Dante, 'Here comes one who will augment our loves.' For in this love 'to divide is not to take away." 
+- C.S. Lewis, The Four Loves
+<div class="space"></div>
 
-“How much more grievous are the consequences of anger than the causes of it.” - Marcus Aurelius
-[breakpost]
+"How much more grievous are the consequences of anger than the causes of it." 
+- Marcus Aurelius
+<div class="space"></div>
 
-“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.”
-Rob Siltanen
-[breakpost]
+"Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do."
+- Rob Siltanen
+<div class="space"></div>
 
-“I swim in the sea of the unconscious
-I search for your heart, pursuing my true self” - Pursuing My True Self, Shoji Meguro
-[breakpost]
+"I swim in the sea of the unconscious
+I search for your heart, pursuing my true self" 
+- Pursuing My True Self, Shoji Meguro
+<div class="space"></div>

@@ -16,22 +16,27 @@
     <div class="content">
         <div class="sBar">
             <div class="tBox">
-                <span class="title"><a href="/">Distro Lucas</a></span>
+                <span class="title"><a class="pageLink" onclick="loadPage('/blog/bypage', '/')">Distro Lucas</a></span>
             </div>
             <div class="inner" id="list">
                 <span><b>Software</b></span>
-                <span><a class="sTab" href="//gimmer.net">Gimmer</a></span>
-                <span><a class="sTab" href="//bit.ly/nucleuscoop">Nucleus Coop</a></span>
+                <span><a class="sTab" href="//gimmer.net"><img class="aIcon sIcon" src="/a/gimmer.png" />Gimmer</a></span>
+                <span><a class="sTab" href="//bit.ly/nucleuscoop"><img class="gIcon sIcon"
+                            src="//github.githubassets.com/favicon.ico" />Nucleus Coop</a></span>
+                <span><a class="sTab greyedOut"><img class="aIcon sIcon"
+                            src="/a/videofy.png" />Videofy</a></span>
                 <span><b>Games</b></span>
-                <span><a class="sTab" href="/l/255/a68">255 (Concept Game)</a></span>
-                <span><a class="sTab" href="">Follow Through (Alpha)</a></span>
+                <span><a class="sTab" href="/l/255/a68"> <img class="aIcon sIcon"
+                    src="/a/255.png" />255 (Concept Game)</a></span>
+                <span><a class="sTab greyedOut" href="">Follow Through (Alpha)</a></span>
                 <span><b>Random</b></span>
-                <span><a class="sTab" href="/past">Past Projects</a></span>
-                <span><a class="sTab" href="/ongoing">Ongoing Projects</a></span>
-                <span><a class="sTab" href="/refs">References</a></span>
-                <span><a class="sTab" href="/res">Resources</a></span>
+                <span><a class="sTab greyedOut" href="/past">Past Projects</a></span>
+                <span><a class="sTab greyedOut" href="/ongoing">Ongoing Projects</a></span>
+                <span><a class="sTab greyedOut" href="/refs">References</a></span>
+                <span><a class="sTab greyedOut" href="/res">Resources</a></span>
+                <span><a class="sTab pageLink" onclick="loadPage('/w/quotes', 'quotes')">Quotes</a></span>
                 <span><b>Writing</b></span>
-                <span><a class="sTab" href="/?page=qs">Quantum Servant</a></span>
+                <span><a class="sTab pageLink" onclick="loadPage('/w/qs', 'qs')">Quantum Servant</a></span>
             </div>
         </div>
         <div id="sitePage">
@@ -50,14 +55,29 @@
                 <div class="fObj">
                     <p><a href="//bit.ly/dsgithub">
                             <img class="gIcon" src="//github.githubassets.com/favicon.ico" />
-                            Website's Github</a></p>
+                            Github</a></p>
                 </div>
                 <div class="fObj">
-                    <p><a href="//open.spotify.com/playlist/0gwd2G3C7Nd1n3M9s54lyD?si=xNgWqXEyS52GlxmL-Hy4Ng">
+                    <p><a href="//bit.ly/dsknown">
                             <img class="gIcon" src="//www.scdn.co/i/_global/favicon.png" />
                             Spotify</a></p>
                 </div>
+                <div class="fObj">
+                    <p><a href="//bit.ly/dsreddit">
+                            <!-- Reddit doesn't allow cross-site access :))))) -->
+                            <img class="aIcon" src="/a/reddit.png" />
+                            Reddit</a></p>
+                </div>
+                <div class="fObj">
+                    <p><a href="//bit.ly/distrolinkedin">
+                            <img class="aIcon"
+                                src="//static-exp1.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" />
+                            LinkedIn
+                        </a></p>
+                </div>
+
             </div>
         </div>
     </div>
+
 </html>

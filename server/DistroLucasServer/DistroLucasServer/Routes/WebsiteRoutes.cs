@@ -34,7 +34,6 @@ namespace DistroLucasServer {
             string language = "en";
             string baseFolder = Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language);
             string filePath = Path.Combine(baseFolder, pageName);
-
             string txtPath = filePath + ".txt";
             if (File.Exists(txtPath)) {
                 filePath = txtPath;
@@ -56,7 +55,11 @@ namespace DistroLucasServer {
         [Route("GET", "qs")]
         public HttpResponse GetQuantumServant(HttpRequest request) {
             return CustomPage(request, "qs");
-           
+        }
+
+        [Route("GET", "quotes")]
+        public HttpResponse GetQuotes(HttpRequest request) {
+            return CustomPage(request, "quotes");
         }
     }
 }
