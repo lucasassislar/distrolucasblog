@@ -17,6 +17,9 @@ DONE:
 - Paging system (index page should have everything needed to render the entire website, then later use small requests to get content)
     - The URL is changed everytime you click a page, so your history is correctly built
     - Actually using the history is not 100% (for some reason the quotes page deletes all history before it always)
+- Multi-language support through cookies
+- Paging system on the server (currently I have to create a Route for each page, even though they're all the same)
+    - Routing system automatically passes parameters to the Routes functions.
 
 LEARNED SO FAR:
 - JSON takes more space than just lines of text

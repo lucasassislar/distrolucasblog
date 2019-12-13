@@ -2,6 +2,17 @@
 var bibRegex = new RegExp("%B\\[(.*?)\\]");//regex for %B[link]
 var bibCounter = 0;
 var firstLoad = true;
+var currentRequestPage;
+var currentPageLink;
+var language = "en";
+var cookiePass = "distrolang=";
+
+function changeLanguage(newLang) {
+    language = newLang;
+    document.cookie = cookiePass + newLang;
+    loadPage(currentRequestPage, currentPageLink);
+}
+
 function parseLine(line) {
     while (line.match(bibRegex)) {
         bibCounter++;
@@ -11,6 +22,11 @@ function parseLine(line) {
 }
 
 function loadPage(requestPage, pageLink) {
+    currentRequestPage = requestPage;
+    currentPageLink = pageLink;
+
+    requestPage = requestPage + "/" + language;
+
     if (firstLoad) {
         firstLoad = false;
     } else {
@@ -91,6 +107,23 @@ function loadPageFromCurrentLocation() {
 
 // wait for browser to load
 document.addEventListener("DOMContentLoaded", function (event) {
+    var cookie = document.cookie;
+
+    if (cookie == null || cookie == "" || cookie.indexOf(cookiePass) == -1) {
+        var lang = window.navigator.userLanguage || window.navigator.language;
+        lang = lang.toLowerCase();
+
+        if (lang.indexOf("pt") == 0) {
+            language = "pt";
+        } else {
+            // Any other language revert to english
+            language = "en";
+        }
+        document.cookie = cookiePass + language;
+    } else {
+        language = cookie.substr(cookie.indexOf(cookiePass) + cookiePass.length, 2);
+    }
+
     loadPageFromCurrentLocation();
 });
 

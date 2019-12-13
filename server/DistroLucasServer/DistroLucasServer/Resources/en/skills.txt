@@ -1,0 +1,17 @@
+C#
+- Nucleus Game Engine
+- Futuron
+- Nucleus Coop
+- This website
+
+C# Unity
+- Pixel Ripped 1989
+- 255
+- Follow Through
+
+Web (Angular + TypeScript)
+- Gimmer
+- 
+
+Unix
+- Gimmer VPS's (Ubuntu + DigitalOcean)

@@ -47,8 +47,8 @@ span {
   font-family: "Tomorrow", sans-serif;
   font-size: 38px;
   /* margin: 15px; */
-  position:relative;
-  left:15px;
+  position: relative;
+  left: 15px;
   top: 15px;
 }
 
@@ -72,7 +72,7 @@ span {
   left: 30px;
 }
 .greyedOut {
-  color:gray !important;
+  color: gray !important;
   pointer-events: none;
 }
 
@@ -92,7 +92,7 @@ span {
 }
 
 #blog {
-  width:100%;
+  width: 100%;
 }
 
 .inner {
@@ -112,7 +112,7 @@ span {
   margin: 0 2% 0 2%;
 }
 .space {
-  height:15px;
+  height: 15px;
 }
 
 .blogText {
@@ -127,14 +127,13 @@ span {
 } */
 
 .distroSubEnd {
-  height:150px;
+  height: 150px;
 }
 
 .contentText {
-  position:relative;
+  position: relative;
   margin: 15px 2% 0 2%;
-  top:25px;
-
+  top: 25px;
 }
 
 .bib {
@@ -158,36 +157,66 @@ span {
   width: 20px;
   vertical-align: text-top;
   filter: invert(1);
-  margin-right:5px;
+  margin-right: 5px;
 }
 .aIcon {
   width: 20px;
   vertical-align: text-top;
-  margin-right:5px;
+  margin-right: 5px;
 }
 .sIcon {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+
+.flags {
+  width: calc(80% - 4px);
+  left: calc(10% + 2px);
+  top: calc(-10% - 2px);
+  height: 28px;
+  position: relative;
+
+  display:flex;
+}
+
+.ptbr {
+  width: 28px;
+  height: 20px;
+  background-image: url("/a/flag_ptbr.jpg");
+  background-size: 28px 20px;
   position:relative;
-  top:2px;
-  left:-2px;
+  left: 13px;
+  top: 4px;
+}
+.enus {
+  width: 28px;
+  height: 20px;
+  background-image: url("/a/flag_usa.jpg");
+  background-size: 28px 20px;
+  position:relative;
+  left: 40px;
+  top: 4px;
+}
+
+.ptbr:hover, 
+.enus:hover{
+  cursor: pointer;
 }
 
 /* links */
 a {
   text-decoration: none;
 }
-a:link {
-  color: white;
-}
-a:visited {
-  color: white;
-}
-a:hover {
-  color: white;
-}
+a:link,
+a:visited,
 a:active {
   color: white;
 }
+a:hover {
+  color: #d7d7d7;
+}
 
 .pageLink:hover {
-  cursor: pointer; 
+  cursor: pointer;
 }

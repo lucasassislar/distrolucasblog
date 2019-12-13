@@ -30,8 +30,8 @@ namespace DistroLucasServer {
             };
         }
 
-        private HttpResponse CustomPage(HttpRequest request, string pageName) {
-            string language = "en";
+        [Route("GET", "")]
+        public HttpResponse CustomPage(HttpRequest request, string pageName, string language) {
             string baseFolder = Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language);
             string filePath = Path.Combine(baseFolder, pageName);
             string txtPath = filePath + ".txt";
@@ -52,14 +52,14 @@ namespace DistroLucasServer {
             };
         }
 
-        [Route("GET", "qs")]
-        public HttpResponse GetQuantumServant(HttpRequest request) {
-            return CustomPage(request, "qs");
-        }
+        //[Route("GET", "qs")]
+        //public HttpResponse GetQuantumServant(HttpRequest request) {
+        //    return CustomPage(request, "qs");
+        //}
 
-        [Route("GET", "quotes")]
-        public HttpResponse GetQuotes(HttpRequest request) {
-            return CustomPage(request, "quotes");
-        }
+        //[Route("GET", "quotes")]
+        //public HttpResponse GetQuotes(HttpRequest request) {
+        //    return CustomPage(request, "quotes");
+        //}
     }
 }

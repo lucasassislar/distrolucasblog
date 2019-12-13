@@ -21,10 +21,9 @@ namespace DistroLucasServer {
         }
 
         [Route("GET", "bypage")]
-        public HttpResponse GetPostsByPage(HttpRequest request) {
+        public HttpResponse GetPostsByPage(HttpRequest request, string language) {
             Console.WriteLine("Get Posts By Page");
 
-            string language = "en";
             DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language, "blog"));
             List<FileInfo> files = postsDir.GetFiles().ToList();
             files.Sort(CompareFile);
@@ -32,10 +31,14 @@ namespace DistroLucasServer {
             string content = "";
             for (int i = 0; i < files.Count; i++) { 
                 FileInfo file = files[i];
+                string text = File.ReadAllText(file.FullName);
+                if (text.Contains("!IGNORE")) {
+                    continue;
+                }
+
                 if (i > 0) {
                     content += "<next>";
                 }
-                string text = File.ReadAllText(file.FullName);
                 content += text;
             }
 
