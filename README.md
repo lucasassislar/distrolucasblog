@@ -1,4 +1,5 @@
-# DistroLucas.com
+# DistroLucas.com https://distrolucas.com
+
 PERSONAL RULES:
 - Nothing on the site should use non-personal source code
 - Optimization is the highest priority
