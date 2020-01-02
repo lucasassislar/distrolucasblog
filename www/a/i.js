@@ -22,6 +22,10 @@ function parseLine(line) {
 }
 
 function loadPage(requestPage, pageLink) {
+    if (pageLink == null) {
+        var x = -1;
+    }
+
     currentRequestPage = requestPage;
     currentPageLink = pageLink;
 
@@ -98,6 +102,7 @@ function loadPageFromCurrentLocation() {
     var requestPage;
     if (page == null || page == "blog") {
         requestPage = "/blog/bypage";
+        page = "";
     } else {
         requestPage = `/w/${page}`;
     }

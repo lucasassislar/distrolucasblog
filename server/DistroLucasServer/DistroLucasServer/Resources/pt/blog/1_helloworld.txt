@@ -1,10 +1,10 @@
-﻿Hello World Title
-Hello World Subtitle
-Date (November 16, 2019 - 03:24)
-Hello World Paragraph 1.
-Hello World Paragraph 2.
-Hello World Paragraph 3.
-Hello World Paragraph 4.
-Hello World Paragraph 5.
-Hello World Paragraph 6.
-Hello World Paragraph 7.
+﻿Olá Mundo Título
+Olá Mundo Subtítulo
+Data (16 de Novembro de 2019 - 03:24)
+Hello World Parágrafo 1.
+Hello World Parágrafo 2.
+Hello World Parágrafo 3.
+Hello World Parágrafo 4.
+Hello World Parágrafo 5.
+Hello World Parágrafo 6.
+Hello World Parágrafo 7.

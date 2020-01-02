@@ -171,37 +171,47 @@ span {
 }
 
 .flags {
-  width: calc(80% - 4px);
-  left: calc(10% + 2px);
+  width: calc(20% - 3px);
+  left: calc(40% + 1px);
   top: calc(-10% - 2px);
-  height: 28px;
+  height: 26px;
   position: relative;
-
-  display:flex;
+  display: flex;
 }
-
+.flagLine{
+  height: 1px;
+  background-color:white;
+  position: relative;
+  top: calc(-10% - 2px);
+  left: calc(30% + 0px);
+  width: calc(40% - 1px);
+}
 .ptbr {
-  width: 28px;
+  width: 20px;
   height: 20px;
-  background-image: url("/a/flag_ptbr.jpg");
-  background-size: 28px 20px;
-  position:relative;
-  left: 13px;
+  background-image: url("/a/flag_ptbr.png");
+  background-size: 20px 20px;
+  position: relative;
+  left: 2px;
   top: 4px;
 }
 .enus {
-  width: 28px;
+  width: 20px;
   height: 20px;
-  background-image: url("/a/flag_usa.jpg");
-  background-size: 28px 20px;
-  position:relative;
-  left: 40px;
+  background-image: url("/a/flag_usa.png");
+  background-size: 20px 20px;
+  position: relative;
+  left: 10px;
   top: 4px;
 }
 
-.ptbr:hover, 
-.enus:hover{
+.ptbr:hover {
   cursor: pointer;
+  background-image: url("/a/flag_ptbr_hover.png");
+}
+.enus:hover {
+  cursor: pointer;
+  background-image: url("/a/flag_usa_hover.png");
 }
 
 /* links */

@@ -1,42 +1,51 @@
-# DistroLucas.com
-PERSONAL RULES:
+Actual Hello World
+Rules for this site
+Last Updated December 13, 2019 - 03:17
+<b>DistroLucas.com</b>
+<b>PERSONAL RULES</b>
 - Nothing on the site should use non-personal source code
 - Optimization is the highest priority
 - Maybe? Make this be backwards-compatible (IE6)
 
 This is my personal safe haven for re-inventing the wheel.
+<br>
 
-BUILDING THE PROJECT
+<b>BUILDING THE PROJECT
 * Building the server for Ubuntu
     dotnet build "DistroLucasServer.NETCore.csproj" --configuration Release --runtime ubuntu.18.04-x64
+<br>
 
-TO-DO:
+<b>TO-DO</b>
 - GZip support
 - Minify CSS and JS support
 - Dynamic CSS (should I just use SASS for this?)
 - Dynamic points to what I''ll be doing - future streams/whatever
 - Template system (HTML being re-used already)
+<br>
 
-DONE:
+<b>DONE</b>
 - Paging system (index page should have everything needed to render the entire website, then later use small requests to get content)
     - The URL is changed everytime you click a page, so your history is correctly built
     - Actually using the history is not 100% (for some reason the quotes page deletes all history before it always)
 - Multi-language support through cookies
 - Paging system on the server (currently I have to create a Route for each page, even though they're all the same)
     - Routing system automatically passes parameters to the Routes functions.
+<br>
 
-LEARNED SO FAR:
+<b>LEARNED SO FAR</b>
 - JSON takes more space than just lines of text
 - PNGs with compression can actually be lighter than JPEGs on low color count images
 - Having all the content on the index page makes the loading of sub-pages insanely fast
+<br>
 
-EXTERNAL TOOLS ALLOWED:
+<b>EXTERNAL TOOLS ALLOWED</b>
 - Anything I can't possibly develop in a timely manner, so:
     - Visual Studio Code
     - NGinx for HTTPS (one day might rewrite my server to support HTTPS, but NGINX would just plainly be more secure)
     - Bit.ly (no money to buy 3-letter domain name + free data without selling my soul to Google)
+<br>
 
-TOOLS USED:
+<b>TOOLS USED</b>
 - Visual Studio Code
 - HTTPS by Certbot
 - Reverse Proxy/HTTPS handling by NGinx
@@ -46,3 +55,4 @@ TOOLS USED:
     - Additional attributes for Route Management and listing more akin to ASP.NET/Express
     - No caching for pages currently
 	- .NET Core 3 on Ubuntu 18
+<br>

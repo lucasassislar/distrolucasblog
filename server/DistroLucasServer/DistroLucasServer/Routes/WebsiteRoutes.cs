@@ -52,14 +52,5 @@ namespace DistroLucasServer {
             };
         }
 
-        //[Route("GET", "qs")]
-        //public HttpResponse GetQuantumServant(HttpRequest request) {
-        //    return CustomPage(request, "qs");
-        //}
-
-        //[Route("GET", "quotes")]
-        //public HttpResponse GetQuotes(HttpRequest request) {
-        //    return CustomPage(request, "quotes");
-        //}
     }
 }
