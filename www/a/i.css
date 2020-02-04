@@ -230,3 +230,13 @@ a:hover {
 .pageLink:hover {
   cursor: pointer;
 }
+
+
+li{
+  margin-left: 2.5vw;
+  text-indent:2px;
+}
+.sub{
+  margin-left: 4vw;
+  text-indent:2px;
+}

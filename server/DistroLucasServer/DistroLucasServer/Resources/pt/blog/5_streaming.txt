@@ -1,0 +1,33 @@
+Live-Streaming e suas peculiaridades
+Todas as plataformas são meio estranhas
+February 4th, 2019
+<b>YouTube</b>
+<i>Pros: </i>
+Se você consegue strimmar no YouTube, ele vai converter seu video para qualquer resolução que o usuário especificar (assim pessoas com conexões ruins para a internet podem strimmar meu conteudo mesmo se eu estiver strimmando em 4k 25mbit).
+<i>Contras: </i>
+<ul>
+    <li>Você só pode strimmar no YouTube se você tem mais que 1000 subscribers (de certa forma, igual o Twitch)</li>
+    <li>Se você strimmar músicas com copyright, o YouTube vai literalmente DROPAR seu Stream (basicamente as corporações tão no controle dessa zona, é terrível).</li>
+</ul>
+
+<i>Peculiaridades: </i>
+O 1080p no YouTube é um lixo. Ele limita a banda permitida pro Stream, e mesmo se eu configurar para uma bitrate mais alta ele vai comprimir pro limite.
+A solução pra fazer texto ficar bonito no YT é fazer upscale do meu conteúdo 1080 pra 4k, pois 4k é permitido bitrates extremamente mais altas (assim mesmo que a resolução seja a emsma, assistir meus streams no YT em 4k é muuuuuuuuito mais claro).
+
+<br>
+<b>Twitch</b>
+<i>Pros:</i> 
+<ul>
+    <li>Twitch deixa você tocar musicas com copyright ao vivo, e só bloqueia depois no VOD.</li>
+    <li>As ferramentas de comunidade do Twitch são extremamente boas para conversar com as pessoas assistindo (a cultura de emojis é hilária tambem)</li>
+</ul>
+<i>Contras:</i> 
+Ele só deixa você converter seu stream se você um parceiro Twitch. Para se tornar um parceiro é necessário muuuuuuuuitos followers.
+    
+
+<br>
+<b>Mixer</b>
+Eu não testei o Mixer ainda, e estou curioso para ver como ele funciona. Talvez na próxima stream :)
+
+<br>
+Só alguns pensamentos, atualizo enquanto formos descobrindo.

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\submodules\nucleusgaming\Nucleus.Gaming\Nucleus.Gaming\Nucleus.Gaming.NETCore.csproj" />
+    <ProjectReference Include="..\..\..\submodules\nucleusgaming\Nucleus.Gaming\Nucleus.Gaming\NucleusDotNet.NETCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

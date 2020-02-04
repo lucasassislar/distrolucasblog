@@ -1,0 +1,33 @@
+Live-Streaming and Its Quirks
+All platforms are kinda weird
+February 4th, 2019
+<b>YouTube</b>
+<i>Pros: </i>
+If you can Stream on YouTube, it'll allow anyone to watch in any resolution (so people with bad internet can watch my stream even if I do it in 4k 25mbits).
+<i>Cons: </i>
+<ul>
+    <li>You can only stream on YouTube if you have more than 1000 subscribers (so in a way, just like Twitch).</li>
+    <li>If your stream is playing copyrighted music, YouTube will straight up DROP your stream (basically corporations control this ecosystem, it's really bad).</li>
+</ul>
+
+<i>Quirks: </i>
+YouTube's 1080p is shite. It limits the bandwidth allowed for the stream, and even though I might stream on a way higher bitrate YouTube just crunches everything.
+The solution to make YouTube look crisp is upscaling my 1080p content to 4k, as 4k is allowed a waaaaay higher bandwidth (so even though the resolution is theoretically the same, watching my YouTube stream in 4k is insanely better).
+
+<br>
+<b>Twitch</b>
+<i>Pros:</i> 
+<ul>
+    <li>Twitch lets you play all the copyrighted songs you want, but it will block the VODs later (not live).</li>
+    <li>Twitch's community tools are really great to interact with everyone that's watching (the entire emoji culture is awesome)</li>
+</ul>
+<i>Cons:</i> 
+It only converts your Stream to different qualities IF you're a partned streamer. Becoming a partnered Twitch streamer doesn't seem easy at all.
+    
+
+<br>
+<b>Mixer</b>
+I haven't tested it yet, and I'm quite curious to do so. Maybe next stream :)
+
+<br>
+Just some thoughts, as we go forward I'll be updating.

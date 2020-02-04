@@ -35,7 +35,7 @@ function loadPage(requestPage, pageLink) {
         firstLoad = false;
     } else {
         window.scrollTo(0, 0);
-        if (pageLink.length == 1) {
+        if (pageLink.length <= 1) {
             window.history.pushState("", "", '?page=blog');
         } else {
             window.history.pushState("", "", `?page=${pageLink}`);

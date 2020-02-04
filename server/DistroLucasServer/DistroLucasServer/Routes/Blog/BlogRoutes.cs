@@ -1,11 +1,9 @@
-﻿using Nucleus.Gaming;
-using Nucleus.Gaming.Web;
+﻿using Nucleus;
+using Nucleus.Web;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DistroLucasServer {
     [RouteManager("^/blog")]
@@ -24,11 +22,12 @@ namespace DistroLucasServer {
         public HttpResponse GetPostsByPage(HttpRequest request, string language) {
             Console.WriteLine("Get Posts By Page");
 
-            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language, "blog"));
+            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "..", "..", "..", "Resources", language, "blog"));
             List<FileInfo> files = postsDir.GetFiles().ToList();
             files.Sort(CompareFile);
 
             string content = "";
+            bool first = true;
             for (int i = 0; i < files.Count; i++) { 
                 FileInfo file = files[i];
                 string text = File.ReadAllText(file.FullName);
@@ -36,10 +35,11 @@ namespace DistroLucasServer {
                     continue;
                 }
 
-                if (i > 0) {
+                if (!first) {
                     content += "<next>";
                 }
                 content += text;
+                first = false;
             }
 
             return new HttpResponse() {
