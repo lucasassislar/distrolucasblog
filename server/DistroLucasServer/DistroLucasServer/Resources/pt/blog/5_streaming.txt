@@ -2,7 +2,7 @@ Live-Streaming e suas peculiaridades
 Todas as plataformas são meio estranhas
 February 4th, 2019
 <b>YouTube</b>
-<i>Pros: </i>
+<i>Prós: </i>
 Se você consegue strimmar no YouTube, ele vai converter seu video para qualquer resolução que o usuário especificar (assim pessoas com conexões ruins para a internet podem strimmar meu conteudo mesmo se eu estiver strimmando em 4k 25mbit).
 <i>Contras: </i>
 <ul>
@@ -16,7 +16,7 @@ A solução pra fazer texto ficar bonito no YT é fazer upscale do meu conteúdo
 
 <br>
 <b>Twitch</b>
-<i>Pros:</i> 
+<i>Prós:</i> 
 <ul>
     <li>Twitch deixa você tocar musicas com copyright ao vivo, e só bloqueia depois no VOD.</li>
     <li>As ferramentas de comunidade do Twitch são extremamente boas para conversar com as pessoas assistindo (a cultura de emojis é hilária tambem)</li>

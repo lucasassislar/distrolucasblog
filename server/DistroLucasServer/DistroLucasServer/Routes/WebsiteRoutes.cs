@@ -29,7 +29,7 @@ namespace DistroLucasServer {
 
         [Route("GET", "")]
         public HttpResponse CustomPage(HttpRequest request, string pageName, string language) {
-            string baseFolder = Path.Combine(AssemblyUtil.GetStartFolder(), "Resources", language);
+            string baseFolder = Path.Combine(AssemblyUtil.GetApplicationRoot(), "Resources", language);
             string filePath = Path.Combine(baseFolder, pageName);
             string txtPath = filePath + ".txt";
             if (File.Exists(txtPath)) {

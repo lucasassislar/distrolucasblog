@@ -22,7 +22,7 @@ namespace DistroLucasServer {
         public HttpResponse GetPostsByPage(HttpRequest request, string language) {
             Console.WriteLine("Get Posts By Page");
 
-            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetStartFolder(), "..", "..", "..", "Resources", language, "blog"));
+            DirectoryInfo postsDir = new DirectoryInfo(Path.Combine(AssemblyUtil.GetApplicationRoot(), "Resources", language, "blog"));
             List<FileInfo> files = postsDir.GetFiles().ToList();
             files.Sort(CompareFile);
 

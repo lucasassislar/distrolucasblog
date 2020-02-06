@@ -178,9 +178,9 @@ span {
   position: relative;
   display: flex;
 }
-.flagLine{
+.flagLine {
   height: 1px;
-  background-color:white;
+  background-color: white;
   position: relative;
   top: calc(-10% - 2px);
   left: calc(30% + 0px);
@@ -231,12 +231,15 @@ a:hover {
   cursor: pointer;
 }
 
-
-li{
+li {
   margin-left: 2.5vw;
-  text-indent:2px;
+  text-indent: 2px;
 }
-.sub{
+.sub {
   margin-left: 4vw;
-  text-indent:2px;
+  text-indent: 2px;
+}
+
+.previewImg {
+  width: 25vw;
 }
