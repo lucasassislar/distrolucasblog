@@ -42,7 +42,7 @@ TOOLS USED:
 - HTTPS by Certbot
 - Reverse Proxy/HTTPS handling by NGinx
 - Dynamic JS by NucleusJS: https://github.com/lucasassislar/nucleusjs
-- Server by Nucleus.Gaming: https://github.com/lucasassislar/nucleusgaming
+- Server by NucleusDotNet: https://github.com/lucasassislar/nucleusdotnet
     - Initial HTTP server code by David Jeske
     - Additional attributes for Route Management and listing more akin to ASP.NET/Express
     - No caching for pages currently
